@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/style.css">
   <title>Oleksandr Lukhanin</title>
 </head>
@@ -15,9 +16,62 @@
 
   <!-- Contact -->
   <section class="contactSection">
-    <div class="flex">
-      <h1>Oleksandr <span class='coloredText'>Lukahnin</span></h1>
-      <img src="images/CV1.jpg" alt="">
+    <div class="container flex space-between">
+      <div class="flex-row">
+        <img src="images/CV1.jpg" alt="">
+        <div class="flex-column">
+          <h1>Oleksandr <br><span class='coloredText lead'>Lukhanin</span></h1>
+          <p>Frontend React developer</p>
+        </div>
+      </div>
+      <table class="contactTable">
+        <tr>
+          <td><i class="fas fa-envelope-open-text"></i></td>
+          <td><em>email</em></td>
+          <td><a href="mailto:oleksandr.lukhanin@gmail.com">oleksandr.lukhanin@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-phone-square-alt"></i></td>
+          <td><em>phone</em></td>
+          <td><a href="tel:+380634195826">+380 63 419 58 26</a></td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-telegram"></i></td>
+          <td><em>telegram</em></td>
+          <td><a href="https://telegram.me/Xander_UZZZER  target=" _blank">Xander_UZZZER</a></td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-viber"></i></td>
+          <td><em>viber</em></td>
+          <td><a href="viber://chat?number=%2B380634195826">+380 63 419 58 26</a></td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-skype"></i></td>
+          <td><em>skype</em></td>
+          <td><a href="skype:xanderuzzzer">xanderuzzzer</a></td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-linkedin"></i></td>
+          <td><em>linkedin</em></td>
+          <td><a href="https://www.linkedin.com/in/oleksandr-lukhanin/"
+              target="_blank">linkedin.com/in/oleksandr-lukhanin</a></td>
+        </tr>
+        <tr>
+          <td><i class="fab fa-github"></i></td>
+          <td><em>github</em></td>
+          <td><a href="https://github.com/XanderUZZZER" target="_blank">github.com/XanderUZZZER</a></td>
+        </tr>
+        <tr>
+          <td> <i class="fas fa-map-marker-alt"></i> </td>
+          <td><em>address</em></td>
+          <td>Kharkiv, Ukraine</td>
+        </tr>
+        <tr>
+          <td> <i class="far fa-file-pdf"></i> </td>
+          <td><em>PDF</em></td>
+          <td><a href="./files/Lukhanin_CV.pdf" download="">Download PDF version of CV</a></td>
+        </tr>
+      </table>
     </div>
   </section>
 
@@ -52,7 +106,7 @@
         <h3 class="coloredText">Biopromin LTD</h3>
         <span>(designing, developing and manufacturing non-invasive medical devices)</span>
       </div>
-      <em>November 2006 – December 2020, Kharkiv, Ukraine</em>
+      <em class='date'>November 2006 – December 2020, Kharkiv, Ukraine</em>
       <ul>
         <li>CTO</li>
         <li>Quality Manager</li>
@@ -104,7 +158,7 @@
     <div class='container'>
       <div class="flex space-between">
         <h3 class="coloredText">KHARKIV NATIONAL UNIVERSITY OF RADIO ELECTRONICS</h3>
-        <em>2004 – 2009, Kharkiv, Ukraine</em>
+        <em class='date'>2004 – 2009, Kharkiv, Ukraine</em>
       </div>
       <p>
         FACULTY OF AUTOMATICS AND COMPUTERIZED TECHNOLOGIES
@@ -117,7 +171,7 @@
       <hr>
       <div class="flex space-between">
         <h3 class='coloredText'>IT Cloud Academy</h3>
-        <em>March 2017 – July 2017, Kharkiv, Ukraine</em>
+        <em class='date'>March 2017 – July 2017, Kharkiv, Ukraine</em>
       </div>
       <p>IT Cloud Academy Career certification</p>
       <ul>
@@ -134,7 +188,102 @@
       </div>
     </div>
     <div class='container'>
-      <p>Table</p>
+      <div class="grid">
+        <div class="">
+          <h3>ProShop</h3>
+          <table class='projectTable'>
+            <tr>
+              <td><em>Repo</em></td>
+              <td><a href="https://github.com/XanderUZZZER/proShop">github.com/XanderUZZZER/proShop</a></td>
+            </tr>
+            <tr>
+              <td><em>Demo</em></td>
+              <td><a href="https://xander-proshop.herokuapp.com/">xander-proshop.herokuapp.com</a></td>
+            </tr>
+            <tr>
+              <td><em>Stack</em></td>
+              <td>React, Hooks API, Redux, Express, JWT, MongoDB</td>
+            </tr>
+          </table>
+        </div>
+        <div class="">
+          <h3>DevConnector</h3>
+          <table class='projectTable'>
+            <tr>
+              <td><em>Repo</em></td>
+              <td><a href="https://github.com/XanderUZZZER/dev-connector">github.com/XanderUZZZER/dev-connector</a></td>
+            </tr>
+            <tr>
+              <td><em>Demo</em></td>
+              <td><a href="https://xander-devconnector.herokuapp.com/">xander-devconnector.herokuapp.com</a></td>
+            </tr>
+            <tr>
+              <td><em>Stack</em></td>
+              <td>React, Hooks API, Redux, Express, JWT, MongoDB</td>
+            </tr>
+          </table>
+        </div>
+        <div class="">
+          <h3>Contact Keeper</h3>
+          <table class='projectTable'>
+            <tr>
+              <td><em>Repo</em></td>
+              <td><a href="https://github.com/XanderUZZZER/contact-keeper">github.com/XanderUZZZER/contact-keeper</a>
+              </td>
+            </tr>
+            <tr>
+              <td><em>Demo</em></td>
+              <td><a href="http://xander-contact-keeper.herokuapp.com/">xander-contact-keeper.herokuapp.com</a></td>
+            </tr>
+            <tr>
+              <td><em>Stack</em></td>
+              <td>React, Hooks API, Context API, Express, JWT</td>
+            </tr>
+          </table>
+        </div>
+        <div class="">
+          <h3>ITLogger</h3>
+          <table class='projectTable'>
+            <tr>
+              <td><em>Repo</em></td>
+              <td><a href="https://github.com/XanderUZZZER/it-logger">github.com/XanderUZZZER/it-logger</a></td>
+            </tr>
+            <tr>
+              <td><em>Demo</em></td>
+              <td><a href="https://xander-itlogger.netlify.app/">xander-itlogger.netlify.app</a></td>
+            </tr>
+            <tr>
+              <td><em>Stack</em></td>
+              <td>React, Hooks API, Redux, JSON-server</td>
+            </tr>
+          </table>
+        </div>
+        <div class="">
+          <h3>Github Finder</h3>
+          <table class='projectTable'>
+            <tr>
+              <td><em>Repo</em></td>
+              <td><a href="https://github.com/XanderUZZZER/github-finder">github.com/XanderUZZZER/github-finder</a></td>
+            </tr>
+            <tr>
+              <td><em>Demo</em></td>
+              <td><a href="https://xander-github-finder.netlify.app/">xander-github-finder.netlify.app</a></td>
+            </tr>
+            <tr>
+              <td><em>Stack</em></td>
+              <td>React, Hooks API, Context API, GitHubAPI</td>
+            </tr>
+          </table>
+        </div>
+        <div class='remark'>
+          <cite>
+            * Due to demo reasons and heroku free terms, if an app receives no web traffic in a
+            30-minute period, it will sleep. Therefore, during the first launch, the application may
+            take longer to load than usual, approximately 15 - 20 seconds. So please be patient
+            and wait for the app to launch. Subsequent launches will be relatively fast
+          </cite>
+        </div>
+      </div>
     </div>
   </section>
 
