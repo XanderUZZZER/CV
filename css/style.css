@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  border-top: 20px solid #4472c4;
+  border-bottom: 20px solid #4472c4;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contactSection h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.coloredText {
+  color: #2f5496;
+}
+
+.heading {
+  background-color: #4472c4;
+  margin: 10px 0;
+}
+
+.heading h2 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.skillBadges > span {
+  display: inline-block;
+  border: 2px solid #4472c4;
+  border-radius: 7px;
+  padding: 3px 5px;
+  font-size: 1.4rem;
+  margin: 3px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-end {
+  justify-content: end;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #4472c4;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+img {
+  width: 30%;
+}
