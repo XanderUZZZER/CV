@@ -111,7 +111,7 @@ img {
 }
 
 .heading {
-  margin: 10px 0;
+  margin-top: 10px;
   background-color: #4472c4;
 }
 
@@ -182,7 +182,6 @@ ul {
 .remark {
   align-self: end;
   font-size: 0.8rem;
-  padding-left: 10px;
 }
 
 @media (max-width: 768px) {
@@ -242,7 +241,6 @@ ul {
     font-size: 0.7rem;
     line-height: 1;
     text-align: justify;
-    padding-top: 10px;
-    padding-left: 0;
+    padding-bottom: 5px;
   }
 }
