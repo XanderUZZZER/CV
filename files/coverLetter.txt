@@ -4,7 +4,7 @@ I'm excited to be applying for the POSITION position at COMPANY.
 I am thrilled to have the opportunity to showcase my technical expertise and my capabilities as part of the COMPANY team of experts.
 I have experience with React and Redux +0.5 year and have good understanding of backend development principles (authentication, middlewares, REST API).
 
-You can find out more detailed information about me here (online version of CV) or in the attached file. Examples of my portfolio projects can also be found in my CV, in my github profile, or by visiting this link: https://oleksandr-lukhanin.netlify.app/
+You can find out more detailed information about me here https://oleksandr-lukhanin.netlify.app/ (online version of CV) or in the attached file. Examples of my portfolio projects can also be found in my CV, in my github profile, or by visiting this link: https://oleksandr-lukhanin.netlify.app/
 
 Thank you for your time and consideration. I'm looking forward to learning more details about the POSITION position at COMPANY. I will be glad to be part of your team.
 
