@@ -184,6 +184,18 @@ ul {
   font-size: 0.8rem;
 }
 
+.updated {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: -28px;
+  padding-right: 5px;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 10px;
