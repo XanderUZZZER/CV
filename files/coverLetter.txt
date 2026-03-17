@@ -1,14 +1,22 @@
-Dear HIRING MANAGER
+Subject: [role] Application – Oleksandr Lukhanin
 
-I'm excited to be applying for the POSITION position at COMPANY. 
-I am thrilled to have the opportunity to showcase my technical expertise and my capabilities as part of the COMPANY team of experts.
-I have experience with React and Redux +0.5 year and have good understanding of backend development principles (authentication, middlewares, REST API). Have C#, .NET Core and ASP.NET Core background.
+Dear Hiring Manager,
 
-You can find out more detailed information about me here https://oleksandr-lukhanin.netlify.app/ (online version of CV) or in the attached file. Examples of my portfolio projects can also be found in my CV, in my github profile, or by visiting this link: https://oleksandr-lukhanin.netlify.app/
+I am writing to express my interest in the [position] position. With over 5 years of commercial experience specializing in the React/Redux ecosystem and strong expertise in ASP.NET Core, I have a proven track record of building scalable web applications and modernizing complex legacy systems.
 
-Thank you for your time and consideration. I'm looking forward to learning more details about the POSITION position at COMPANY. I will be glad to be part of your team.
+In my current role at SweetSoft INC., I have contributed to high-performance data analytics platforms for the insurance sector. 
 
+Key achievements include:
+•	Frontend Excellence: Designed and implemented complex React architectures and interactive dashboards with advanced data visualization and custom UI effects using Vite and SCSS.
+•	Fullstack Integration: Architected and optimized RESTful APIs using EF Core and .NET 8, ensuring seamless data flow and robust session management via JWT , and real-time updates using WebSockets.
+•	Infrastructure & DevOps: Streamlined development workflows by establishing containerized environments with Docker and Dev Containers for cross-platform development.
 
-Sincerely
+I am particularly drawn to your company because of [specific project/value], and I am excited about the opportunity to contribute to your engineering team. I am confident that my experience in building maintainable, high-quality code and leading technical transitions will allow me to make an immediate impact.
 
+Thank you for your time and consideration. I would welcome the opportunity to discuss how my skills and experience can support your team’s success.
+
+Best regards,
 Oleksandr Lukhanin
+linkedin.com/in/oleksandr-lukhanin/ | github.com/OleksandrLukhanin
+oleksandr.lukhanin@gmail.com | +380 63 419 58 26
+

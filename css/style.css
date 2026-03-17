@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+:root {
+  --main-color: #4472c4;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -20,6 +26,17 @@ body {
   margin: 0 auto;
   /* overflow: auto; */
   padding: 0 40px;
+}
+
+.container p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.container p.profile span {
+  font-weight: 700;
 }
 
 .flex {
@@ -54,6 +71,10 @@ body {
   white-space: nowrap;
 }
 
+.contactTable td:nth-child(3) {
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -61,6 +82,15 @@ a {
 
 .fab {
   padding-right: 5px;
+}
+
+.fas.fa-phone-square-alt {
+  transform: scaleX(-1);
+}
+
+.fa-solid.fa-user-group {
+  font-size: 13px;
+  color: #7B83EB;
 }
 
 .fa-telegram {
@@ -122,7 +152,7 @@ img {
   font-weight: 100;
 }
 
-.skillBadges > span {
+.skillBadges>span {
   display: inline-block;
   border: 2px solid #4472c4;
   border-radius: 7px;
@@ -194,6 +224,53 @@ ul {
   margin-top: 10px;
   margin-bottom: -28px;
   padding-right: 5px;
+}
+
+.experience,
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+:is(.experience, .skills)>li:not(:last-child) {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.experience>li>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience>li>div>p {
+  margin-bottom: 6px;
+}
+
+:is(.experience, .skills)>li>div>p:first-child {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.experience>li>div>p:first-child>span {
+  font-style: italic;
+}
+
+.experience>li>div>p:last-child {
+  font-size: 16px;
+  font-style: italic;
+
+}
+
+:is(.experience, .skills) li ul {
+  list-style: disc;
+}
+
+.experience li li {
+  margin-bottom: 12px;
+}
+
+:is(.experience, .skills) li li p span {
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
