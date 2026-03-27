@@ -8,7 +8,7 @@ In my current role at SweetSoft INC., I have contributed to high-performance dat
 
 Key achievements include:
 •	Frontend Excellence: Designed and implemented complex React architectures and interactive dashboards with advanced data visualization and custom UI effects using Vite and SCSS.
-•	Fullstack Integration: Architected and optimized RESTful APIs using EF Core and .NET 8, ensuring seamless data flow and robust session management via JWT , and real-time updates using WebSockets.
+•	Fullstack Integration: Architected and optimized RESTful APIs using EF Core and .NET 8, ensuring seamless data flow and robust session management via JWT , and real-time updates using WebSockets. Improving system performance through Redis caching and managing cloud storage with AWS S3.
 •	Infrastructure & DevOps: Streamlined development workflows by establishing containerized environments with Docker and Dev Containers for cross-platform development.
 
 I am particularly drawn to your company because of [specific project/value], and I am excited about the opportunity to contribute to your engineering team. I am confident that my experience in building maintainable, high-quality code and leading technical transitions will allow me to make an immediate impact.
